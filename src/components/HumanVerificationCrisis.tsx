@@ -123,6 +123,21 @@ export const HumanVerificationCrisis = () => {
 
   return (
     <div className={`min-h-screen bg-background relative ${isGlitchMode ? 'animate-pulse-glow' : ''}`}>
+      {/* Animated Background */}
+      <div className="animated-bg">
+        <div className="floating-shapes">
+          <div className="floating-shape"></div>
+          <div className="floating-shape"></div>
+          <div className="floating-shape"></div>
+          <div className="floating-shape"></div>
+          <div className="floating-shape"></div>
+          <div className="floating-shape"></div>
+          <div className="floating-shape"></div>
+          <div className="floating-shape"></div>
+          <div className="floating-shape"></div>
+        </div>
+        <div className="grid-overlay"></div>
+      </div>
       {/* Header */}
       <header className="p-6 border-b border-border">
         <div className="max-w-4xl mx-auto">
