@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -52,6 +53,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// CAPTCHA specific colors
+				'captcha-bg': 'hsl(var(--captcha-bg))',
+				'captcha-border': 'hsl(var(--captcha-border))',
+				'captcha-hover': 'hsl(var(--captcha-hover))',
+				'captcha-loading': 'hsl(var(--captcha-loading))',
+				// Glitch colors
+				'glitch-red': 'hsl(var(--glitch-red))',
+				'glitch-cyan': 'hsl(var(--glitch-cyan))',
+				'glitch-yellow': 'hsl(var(--glitch-yellow))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
