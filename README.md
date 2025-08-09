@@ -1,73 +1,149 @@
-# Welcome to your Lovable project
+<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
-## Project info
 
-**URL**: https://lovable.dev/projects/00c24c61-e97e-4f1d-b934-d5ff1a0156ad
+# [Human Verification Crisis] 🎯
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+## Basic Details
+### Team Name: Adithyan's Team
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/00c24c61-e97e-4f1d-b934-d5ff1a0156ad) and start prompting.
+### Team Members
+- Team Lead: [Adithyan K] - [SCMS School of Engineering and Technology]
 
-Changes made via Lovable will be committed automatically to this repo.
+### Project Description
+This project creates a funny, interactive website that pretends to be a security CAPTCHA (the "I'm not a robot" tests you see online).
 
-**Use your preferred IDE**
+However, instead of giving you a normal task, it gives you impossible or absurd challenges.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## What It Does
+Presents a Fake Test: It looks like a real security check, asking you to prove you're human.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Gives Impossible Challenges: The tasks are deliberately nonsensical, like asking you to "Select all images containing a vague sense of dread" or "Draw a perfect circle."
 
-Follow these steps:
+You Can't Win: No matter what you choose, the website will always tell you that you've failed, often with a humorous message.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### The Problem (that doesn't exist)
+[The problem is that current security CAPTCHAs are far too simple. They only prove that a user isn't a robot; they completely fail to verify if the user is a truly interesting human.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+These tests don't check for critical human qualities like the ability to perceive a vague sense of dread, understand irony, or appreciate philosophical nonsense. ]
 
-# Step 3: Install the necessary dependencies.
-npm i
+### The Solution (that nobody asked for)
+[We are solving this problem with the Unsolvable CAPTCHA, a revolutionary verification system designed to filter out not just robots, but also boring people.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Our system moves beyond simple logic and instead presents users with a series of deeply philosophical, emotionally complex, and delightfully absurd challenges. By asking users to "select all images containing a vague sense of dread" or "identify the most suspicious-looking pigeon," we can accurately measure their capacity for irony, existential angst, and abstract thought.
+
+If a user fails—and they always will—it's not because they are a robot. It's because they simply aren't human enough. It's not a security feature; it's a personality test that nobody can pass.]
+
+## Technical Details
+### Technologies/Components Used
+For Software:
+- [Languages Used :
+  TypeScript (primary)
+CSS (styling)
+HTML]
+
+- [Frameworks used:
+  React 18.3.1 (UI framework)
+Vite (build tool & dev server)]
+
+- [Libraries used:
+  UI Components: Radix UI suite (@radix-ui/react-*)
+Styling: Tailwind CSS + tailwindcss-animate
+Icons: Lucide React
+Routing: React Router DOM
+State Management: TanStack React Query
+Forms: React Hook Form + Zod validation
+Notifications: Sonner (toast notifications)
+Utilities: clsx, tailwind-merge, class-variance-authority]
+- [Tools used :
+  Backend: Supabase (integrated)
+Linting: ESLint with TypeScript rules
+Package Manager: npm
+Development: Vite dev server with HMR]
+
+
+
+### Implementation
+For Software:
+# Installation
+[commands]
+# Clone the repository
+git clone <repository-url>
+cd <project-directory>
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+# Build for production
+npm run build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Preview production build
+npm run preview
 
-**Use GitHub Codespaces**
+# Run linting
+npm run lint
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+# Run
+[commands]
 
-This project is built with:
+### Project Documentation
+For Software:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# Screenshots (Add at least 3)
+![Screenshot1]<img width="1889" height="968" alt="Landing Page" src="https://github.com/user-attachments/assets/0d373e0c-efbd-414b-8e45-822c63ca0dac" />
 
-## How can I deploy this project?
+*The provided image is the landing page with normal captcha*
 
-Simply open [Lovable](https://lovable.dev/projects/00c24c61-e97e-4f1d-b934-d5ff1a0156ad) and click on Share -> Publish.
+![Screenshot2](<img width="1899" height="969" alt="Failing of capta" src="https://github.com/user-attachments/assets/b5d19edd-e2cc-4cca-a9b6-593428ad6745" />
+)
+*The Given image is warning that the captcha is invalid.*
 
-## Can I connect a custom domain to my Lovable project?
+![Screenshot3](<img width="1861" height="951" alt="New Capcha" src="https://github.com/user-attachments/assets/cd70939f-f5ca-4712-bf4a-de6cbdf3139e" />
+)
+*This shows another task to complete the captcha*
 
-Yes, you can!
+# Diagrams
+![Workflow](Add your workflow/architecture diagram here)
+*Add caption explaining your workflow*
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+For Hardware:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Schematic & Circuit
+![Circuit](Add your circuit diagram here)
+*Add caption explaining connections*
+
+![Schematic](Add your schematic diagram here)
+*Add caption explaining the schematic*
+
+# Build Photos
+![Components](Add photo of your components here)
+*List out all components shown*
+
+![Build](Add photos of build process here)
+*Explain the build steps*
+
+![Final](Add photo of final product here)
+*Explain the final build*
+
+### Project Demo
+# Video
+[Add your demo video link here]
+*Explain what the video demonstrates*
+
+# Additional Demos
+[Add any extra demo materials/links]
+
+## Team Contributions
+- [Adithyan K]: [Made the project]
+
+
+---
+Made with ❤️ at TinkerHub Useless Projects 
+
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
